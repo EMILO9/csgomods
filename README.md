@@ -1,1 +1,1 @@
-# csgomods
+# csgomods prototype
