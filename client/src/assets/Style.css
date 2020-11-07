@@ -1,0 +1,52 @@
+.button {
+    margin-left: 10px;
+}
+
+.row{
+    display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    }
+
+    .chip {
+        margin: 5px;
+    }
+
+    .mycontainer {
+        height: calc(100vh - 124px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainText {
+        font-size: 100px;
+        color: #545454;
+        font-weight: bold;
+    }
+    .secondaryText {
+        font-size: 40px;
+    }
+
+.textWrapper {
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    text-align: center;
+}
+.title:hover {
+    cursor: pointer;
+}
+
+.accountForm {
+    padding: 16px;
+}
+
+.divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.checkbtn:nth-child(even) {
+    margin-top: 16px;
+}
+
+.overlayWidth {
+    width: 300px;
+}
